@@ -1,20 +1,11 @@
-require 'pry'
+require "pry"
 
 class String
+  def sentence?; end
 
-  def sentence?
-    
-  end
+  def question?; end
 
-  def question?
+  def exclamation?; end
 
-  end
-
-  def exclamation?
-
-  end
-
-  def count_sentences
-
-  end
+  def count_sentences; end
 end
